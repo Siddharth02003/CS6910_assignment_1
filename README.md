@@ -8,3 +8,29 @@
    pip3 install -r requirements.txt
    ```
 Peek inside the requirements file if you have everything already installed. Most of the dependencies are common libraries.
+
+## Training the Neural Network 
+
+```python
+def train(X_train=X_train, y_train=y_train, layers=[784,16,10],wandb_log=True, learning_rate = 0.0001, initialization_type = "random", activation_function = "sigmoid", loss_function = "cross_entropy", mini_batch_Size = 32, max_epochs = 5, lambd = 0,optimization_function = adam)
+```
+
+The following model supports the following arguments (with their default values) 
+
+- X_train=X_train
+- y_train=y_train
+- layers=[784,16,10]
+- wandb_log=True
+- learning_rate = 0.0001
+- initialization_type = "random"
+- activation_function = "sigmoid"
+- loss_function = "cross_entropy"
+- mini_batch_Size = 32
+- max_epochs = 5
+- lambd = 0
+- optimization_function = adam 
+
+It prints the validation and train accuracy upon completion of training.
+
+
+
