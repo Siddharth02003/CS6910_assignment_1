@@ -32,5 +32,41 @@ The following model supports the following arguments (with their default values)
 
 It prints the validation and train accuracy upon completion of training.
 
+Available functions to customize the network 
+
+1. initialization_type 
+
+```
+Xavier()
+Random()
+```
+
+2. activation_function
+
+```
+sigmoid()
+tanh()
+relu()
+```
+
+3. loss_function
+
+```
+CrossEntropy()
+squaredloss()
+```
+4. Optimisers
+
+```
+stochastic_gd()
+momentum_gd()
+nesterovacc_gd()
+rmsprop()
+adam()
+nadam()
+```
+
+
+
 
 
