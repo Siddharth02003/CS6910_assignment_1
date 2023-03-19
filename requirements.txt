@@ -1,0 +1,7 @@
+numpy
+random
+matplotlib
+tensorflow
+Keras
+scikit-learn
+wandb
